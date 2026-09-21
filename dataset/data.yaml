@@ -1,12 +1,11 @@
-# Set root path ke folder tempat gambar berada
-path: dataset # Mengarah ke /home/jeremi/Desktop/box-detection/dataset
+# Root path lokasi dataset
+path: dataset
 
 train: train/images
 val: valid/images
 test: test/images
 
-kpt_shape: [9, 3]
-
+# Pemetaan kelas (sesuai category_id Roboflow)
 names:
   0: eblock_blue
   1: eblock_red
